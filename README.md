@@ -41,235 +41,82 @@ This system is designed for **businesses, government agencies, and organizations
 ⚡ **Automation** – Reduce manual work and save time  
 📢 **Improved Communication** – Ensure all cases are handled correctly and on time  
 
-
-
-Funktionella krav 
-
-Här är en lista över funktionella krav som systemet ska uppfylla: 
-
-Användarautentisering och behörigheter 
-
-Systemet ska tillåta användare att logga in med en säker metod (t.ex. tvåfaktorsautentisering). 
-
-Användare ska ha olika roller (administratör, handläggare, kund) med olika behörigheter. 
-
-Ärendehantering 
-
-Användare ska kunna skapa, redigera och radera ärenden. 
-
-Ärenden ska kunna tilldelas specifika handläggare. 
-
-Varje ärende ska ha en status (öppet, pågående, avslutat). 
-
-Notifieringar och kommunikation 
-
-Systemet ska skicka automatiska notifieringar via e-post och/eller SMS vid statusändringar. 
-
-Användare ska kunna kommentera och bifoga filer till ett ärende. 
-
-Sök- och filtreringsfunktion 
-
-Användare ska kunna söka efter ärenden baserat på ID, status, datum och handläggare. 
-
-Systemet ska erbjuda filtrering av ärenden efter kategori och prioritet. 
-
-Rapportering och analys 
-
-Systemet ska kunna generera rapporter över antalet ärenden, handläggningstider och slutförda ärenden. 
-
-Rapporter ska kunna exporteras i PDF- och Excel-format. 
-
-Åtkomstkontroll och säkerhet 
-
-Systemet ska säkerställa att användare endast har åtkomst till information som är relevant för deras roll. 
-
-Alla användaraktiviteter ska loggas för spårbarhet. 
-
-Mobilanpassning 
-
-Systemet ska vara responsivt och fungera på både datorer, surfplattor och mobiltelefoner. 
-
- 
-
- 
-
-Icke-funktionella krav (enkelt förklarat) 
-
-1. Systemet ska vara snabbt och klara många användare 
-
- Systemet ska kunna hantera minst 10 000 användare samtidigt utan att bli långsamt. 
-
- Att öppna en sida eller ett ärende ska ta max 3 sekunder. 
-
- Varför är detta viktigt? 
-Om systemet är långsamt blir det jobbigt att använda, och det kan ta för lång tid att lösa ärenden. 
-
-Hur löser vi detta? 
-Genom att använda snabba servrar, bra databaser och smarta tekniska lösningar. 
-
- 
-
-2. Systemet måste vara säkert 
-
- Användardata ska vara krypterad så att ingen obehörig kan läsa den. 
-
- Endast rätt personer ska kunna se eller ändra information genom behörigheter 
-
- Systemet måste följa GDPR (lagar om dataskydd). 
-
-Varför är detta viktigt? 
-Det skyddar privat information och förhindrar att någon får tillgång till känsliga uppgifter. 
-
-Hur löser vi detta? 
-Genom att använda starka lösenord, säker inloggning (t.ex. tvåfaktorsautentisering) och dataskyddsteknik. 
-
- 
-
-3. Systemet ska alltid fungera 
-
- Systemet ska vara tillgängligt 99,9% av tiden, så att det inte plötsligt slutar fungera. 
-
-Om något går fel ska det finnas säkerhetskopior av all information. 
-
- 
-
- Varför är detta viktigt? 
-Om systemet kraschar kan viktiga ärenden försvinna, vilket skapar stora problem. 
-
- Hur löser vi detta? 
-Genom att använda säkra servrar och göra regelbundna säkerhetskopior. 
-
- 
-
-4. Systemet ska vara enkelt att använda 
-
-Gränssnittet ska vara enkelt och lätt att förstå. 
-
-Det ska fungera både på dator, mobil och surfplatta. 
-
- 
-
- Varför är detta viktigt? 
-Om systemet är krångligt att använda, tar det längre tid att arbeta och kan skapa misstag. 
-
- Hur löser vi detta? 
-Genom att skapa en tydlig design och testa systemet med riktiga användare. 
-
- 
-
-5. Systemet ska logga alla viktiga händelser 
-
- Alla inloggningar, ändringar och viktiga händelser ska sparas i en logg. 
-
- Loggarna ska sparas i minst 12 månader. 
-
- 
-
- Varför är detta viktigt? 
-Om något går fel, eller om någon gör något olämpligt, måste det finnas spårbarhet. 
-
-Hur löser vi detta? 
-Genom att lagra loggar automatiskt och ge administratörer tillgång till dem. 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Must Have (M) – Måste finnas med 
-
-Dessa funktioner måste vara på plats för att systemet ska fungera bra: 
-
-Inloggning och behörigheter 
-
-Säker inloggning (t.ex. tvåfaktorsautentisering) 
-
-Användare ska ha olika roller (t.ex. admin, handläggare, kund) med olika rättigheter. 
-
-Ärendehantering 
-
-Möjlighet att skapa, ändra och ta bort ärenden 
-
-Ärenden ska kunna tilldelas en specifik handläggare 
-
-Ärenden ska ha en status (öppet, pågående, avslutat) 
-
-Sök och filtrering 
-
-Kunna söka efter ärenden baserat på t.ex. ID, status och datum 
-
-Filtrera ärenden efter kategori och prioritet 
-
-Notifieringar och kommunikation 
-
-Skicka automatiska meddelanden (e-post/SMS) när status ändras 
-
-Användare ska kunna kommentera och lägga till filer i ärenden 
-
-Åtkomstkontroll och säkerhet 
-
-Användare ska bara kunna se information som är relevant för deras roll 
-
-Should Have (S) – Bör vara med 
-
-Dessa funktioner är viktiga, men systemet kan ändå fungera utan dem: 
-
-Rapportering och analys 
-
-Kunna skapa rapporter om ärenden och handläggningstider 
-
-Möjlighet att exportera rapporter till PDF eller Excel 
-
-Mobilanpassning 
-
-Systemet ska fungera bra på både datorer, surfplattor och mobiltelefoner 
-
-Could Have (C) – Skulle vara bra att ha 
-
-Dessa funktioner är inte nödvändiga, men kan vara bra att ha om tiden räcker till: 
-
-Loggning och spårbarhet 
-
-Logga viktiga händelser, som inloggningar och ändringar av ärenden 
-
-Loggar ska vara tillgängliga för administratörer i minst 12 månader 
-
-Anpassningsbara gränssnitt 
-
-Möjlighet att ändra gränssnittet för en bättre användarupplevelse 
-
-Won't Have (W) – Kommer inte vara med 
-
-Dessa funktioner ingår inte i den här versionen, men kan övervägas senare: 
-
-Det finns inga funktioner här för nu, men i framtiden kan det finnas om behov uppstår. 
-
- 
-
- 
-
- 
-
- 
-
- 
 ---
 ## 🛠️ Tech Stack (Planned)
 - 💻 **Frontend**: Blazor / ASP.NET MVC
 - 🖥️ **Backend**: C# / .NET Core
 - 🗄️ **Database**: SQL Server
 - ☁️ **Hosting**: Azure / On-Premise
+
+## 📌 Functional Requirements (Funktionella krav)
+### 🔹 User Authentication and Permissions
+- Secure login with two-factor authentication (2FA).
+- Role-based access control (Admin, Case Manager, Customer).
+
+### 🔹 Case Management
+- Users can create, edit, and delete cases.
+- Cases can be assigned to specific case managers.
+- Each case has a status (Open, In Progress, Closed).
+
+### 🔹 Notifications & Communication
+- Automatic notifications via email/SMS for status changes.
+- Users can comment and attach files to cases.
+
+### 🔹 Search & Filtering
+- Users can search for cases based on ID, status, date, and case manager.
+- Filtering options for category and priority.
+
+### 🔹 Reporting & Analytics
+- Generate reports on case numbers, processing times, and completed cases.
+- Export reports in PDF and Excel formats.
+
+### 🔹 Access Control & Security
+- Users can only access information relevant to their role.
+- All user activities are logged for traceability.
+
+### 🔹 Mobile Responsiveness
+- The system must be fully responsive for desktops, tablets, and mobile devices.
+
+## 📌 Non-Functional Requirements (Icke-funktionella krav)
+### 🔹 Performance
+- The system should support at least 10,000 simultaneous users.
+- Page loading and case access should take no more than 3 seconds.
+
+### 🔹 Security
+- User data must be encrypted.
+- Role-based access ensures only authorized users see sensitive information.
+- GDPR compliance for data protection.
+
+### 🔹 Reliability & Availability
+- 99.9% uptime guarantee.
+- Regular backups to prevent data loss.
+
+### 🔹 Usability
+- A user-friendly interface for easy navigation.
+- Compatible across desktops, tablets, and mobile devices.
+
+### 🔹 Logging & Monitoring
+- All login attempts, changes, and significant events should be logged.
+- Logs should be stored for a minimum of 12 months.
+
+## 📌 Prioritization of Features
+### 🔹 Must Have (M) – Essential Features
+- Secure authentication & role-based access control.
+- Case creation, assignment, and status tracking.
+- Search and filtering for cases.
+- Automatic notifications and communication.
+- Security and access control.
+
+### 🔹 Should Have (S) – Important but Not Critical
+- Report generation and analytics.
+- Mobile responsiveness.
+
+### 🔹 Could Have (C) – Nice to Have
+- Logging and tracking of user activities.
+- Customizable UI for better user experience.
+
+### 🔹 Won't Have (W) – Not Included in This Version
+- No additional features planned at this stage, but may be added in future versions.
 
 ## 📌 Getting Started
 ### 🔹 Prerequisites
