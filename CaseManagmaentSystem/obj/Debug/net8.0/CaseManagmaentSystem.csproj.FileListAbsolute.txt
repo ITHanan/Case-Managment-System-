@@ -1,0 +1,15 @@
+C:\Users\ithan\source\repos\CaseManagmaentSystem\bin\Debug\net8.0\CaseManagmaentSystem.exe
+C:\Users\ithan\source\repos\CaseManagmaentSystem\bin\Debug\net8.0\CaseManagmaentSystem.deps.json
+C:\Users\ithan\source\repos\CaseManagmaentSystem\bin\Debug\net8.0\CaseManagmaentSystem.runtimeconfig.json
+C:\Users\ithan\source\repos\CaseManagmaentSystem\bin\Debug\net8.0\CaseManagmaentSystem.dll
+C:\Users\ithan\source\repos\CaseManagmaentSystem\bin\Debug\net8.0\CaseManagmaentSystem.pdb
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\CaseManagmaentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\CaseManagmaentSystem.AssemblyInfoInputs.cache
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\CaseManagmaentSystem.AssemblyInfo.cs
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\CaseManagmaentSystem.csproj.CoreCompileInputs.cache
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\CaseManagmaentSystem.dll
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\refint\CaseManagmaentSystem.dll
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\CaseManagmaentSystem.pdb
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\CaseManagmaentSystem.genruntimeconfig.cache
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\ref\CaseManagmaentSystem.dll
+C:\Users\ithan\source\repos\CaseManagmaentSystem\obj\Debug\net8.0\CaseManagmaentSystem.sourcelink.json
