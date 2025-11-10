@@ -15,4 +15,4 @@ jobs:
           curl -H "Content-Type: application/json" \
                -X POST \
                -d "{\"content\": \" A new push was made to **main** by ${{ github.actor }}\"}" \
-               ${{ secrets.discordWebhook }}
+               ${{ secrets.DISCORDWEBHOOK }}
